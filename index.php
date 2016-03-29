@@ -9,7 +9,7 @@ include_once "header.php";
 			<h2>Adrien Baglin</h2>
 			<h3>Intégrateur - Développeur - Graphiste</h3>
 			<h4>Bienvenue sur mon site - portfolio</h4>
-
+			 <a class="back" href="moncv.php">Mon CV</a>
 			<ul>
 		        <li>
 		            <a href="logo.php">
