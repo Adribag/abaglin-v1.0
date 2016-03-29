@@ -1,0 +1,142 @@
+/*MODIFS BOOTSTRAP*//*MODIFS BOOTSTRAP*/
+.col-md-3, .col-lg-2{
+	padding-right: 0;
+}
+.row {
+    height:100%;
+    margin: 0;
+}
+/*MODIFS BOOTSTRAP*//*MODIFS BOOTSTRAP*/
+/*HTML-BODY*//*HTML-BODY*/
+html,body{
+	height:100%;
+	font-family: Verdana, sans-serif;
+}
+html{
+	font-size: 62.5%;
+}
+body{
+	font-size: 1.4rem;
+	background-color: #171714;
+}
+/*HTML-BODY*//*HTML-BODY*/
+/*GENERALE*//*GENERALE*/
+a,a:hover{
+	text-decoration:none;
+}
+h1,h2{
+	text-align: center;
+}
+h2{
+	margin: 6rem 0 6rem 0;
+}
+/*GENERALE*//*GENERALE*/
+/*HEADER*//*HEADER*//*HEADER*/
+header{
+	background-color: #34495E;
+	color:#FFFFFF;
+	height:100%;
+    min-height:100%
+}
+header ul{
+	list-style-type: none;
+}
+header ul li a{
+	color:#FFFFFF;
+}
+.fixed{
+	position:fixed;
+	padding-left: 0;
+}
+.logo{
+	display:block;
+	height: 100px;
+	width: 100px;
+	background-color: #FFFFFF;
+	margin: 0 auto;
+}
+.testlogo{
+	margin: 2rem auto;
+	display:block;
+}
+.testlogo2{
+	margin: 8rem auto;
+	display:block;
+	color:blue;
+}
+header p{
+	text-align: center;
+}
+nav{
+	margin-top: 2rem;
+}
+.tmenu{
+	color:#FFFFFF;
+	margin:1rem auto;
+	text-align: center;
+	display: inline-block;
+}
+.smenu{
+	color:#FFFFFF;
+	display:block;
+	width: 100%;
+	margin-top: 1.5rem;
+	padding: 0 0 0.5rem 1rem;
+	margin:0;
+}
+.smenu:hover{
+	color:#34495E;
+	background-color: #FFFFFF;
+	
+}
+/*HEADER*//*HEADER*//*HEADER*/
+/*SECTION*//*SECTION*//*SECTION*/
+section{
+	padding-right: 0;
+	background-color: #ecf0f1;
+	text-align:center;
+}
+section li{
+	list-style-type: none;
+	display: inline-block;
+	text-align: center;
+	margin: 6rem;
+}
+section a img{
+	opacity: 0.8;
+}
+section a:hover img{
+	opacity: 1;
+}
+figure{
+	text-align: center;
+	margin-top:6rem;
+	margin-bottom: 6rem;
+}
+.intro{
+	display:block;
+	margin:10rem auto;
+}
+.back{
+	padding:2rem;
+	background-color:#44BBFF;
+	color:#FFFFFF;
+	display:inline-block;
+	border-radius:1rem;
+	margin:2rem 0 2rem 0;
+	text-decoration:none;
+}
+.back:hover{
+	background-color:#FFFFFF;
+	color:#44BBFF;
+	text-decoration:none;
+}
+/*SECTION*//*SECTION*//*SECTION*/
+/*FOOTER*//*FOOTER*//*FOOTER*/
+footer{
+	background-color: #171714;
+	color:#FFFFFF;
+    width:100%;
+    text-align: center;
+}
+/*FOOTER*//*FOOTER*//*FOOTER*/
