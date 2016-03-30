@@ -2,18 +2,23 @@
 include_once "header.php";
 ?>
 <div class="moncv">
-	<section class="adresse">
-	<p>Adrien Baglin</p>
-	<p>9 rue des orgues</p>
-	<p>13004 Marseille</p>
-	<p>06.59.27.24.94</p>
-	<p>adrien.baglin@gmail.com</p>
-	<p>26 ans</p>
-	<p>Permis B + véhicule</p>
-	</section>
-	<section class="titrecv">
-				<h2>Adrien Baglin</h2>
-				<p>Integrateur - Developpeur - Infographiste</p>
+	<div class="headercv">
+		<section class="adresse">
+			<p>Adrien Baglin</p>
+			<p>9 rue des orgues</p>
+			<p>13004 Marseille</p>
+			<p>06.59.27.24.94</p>
+			<p>adrien.baglin@gmail.com</p>
+			<p>26 ans</p>
+			<p>Permis B + véhicule</p>
+		</section>
+		<section class="titrecv">
+			<h2>Adrien Baglin</h2>
+			<p>Integrateur - Developpeur - Infographiste</p>
+		</section>
+	</div>
+	<section class="headcomp">
+		<h2>COMPETENCES</h2>
 	</section>
 	<section class="competences">
 		<div class="comp_web">
@@ -21,8 +26,7 @@ include_once "header.php";
 			<ul>
 				<li>HTML</li>
 				<li>CSS</li>
-				<li>JAVASCRIPT</li>
-				<li>JQUERY</li>
+				<li>JS / JQUERY</li>
 				<li>PHP</li>
 				<li>BOOTSTRAP</li>
 				<li>WORDPRESS</li>
@@ -45,7 +49,7 @@ include_once "header.php";
 		<h3>FORMATION</h3>
 		<ul>
 			<li>
-				2015 - 2016 : Formation Developpeur et Intégrateur Web, 3W Academy (13)
+				2015 - 2016 : Developpeur et Intégrateur Web, 3W Academy (13)
 			</li>
 			<li>
 				2011 - 2013 : Concepteur de medias interactifs, Groupe Fim (50)

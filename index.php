@@ -7,7 +7,7 @@ include_once "header.php";
 			<br/>
 			<img class="testlogo2" src="img/ab_logo_500_blue.png">
 			<h2>Adrien Baglin</h2>
-			<h3>Intégrateur - Développeur - Graphiste</h3>
+			<h3>Intégrateur - Développeur - Infographiste</h3>
 			<h4>Bienvenue sur mon site - portfolio</h4>
 			 <a class="back" href="moncv.php">Mon CV</a>
 			<ul>

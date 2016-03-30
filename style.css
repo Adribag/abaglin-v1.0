@@ -74,21 +74,14 @@ nav{
 .tmenu{
 	color:#FFFFFF;
 	margin:1rem auto;
-	text-align: center;
+	text-align: left;
 	display: inline-block;
-}
-.smenu{
-	color:#FFFFFF;
-	display:block;
 	width: 100%;
-	margin-top: 1.5rem;
-	padding: 0 0 0.5rem 1rem;
-	margin:0;
+	padding-left: 1rem;
 }
-.smenu:hover{
-	color:#34495E;
-	background-color: #FFFFFF;
-	
+.tmenu:hover{
+	color: #34495E;
+	background-color: #ecf0f1;
 }
 /*HEADER*//*HEADER*//*HEADER*/
 /*SECTION*//*SECTION*//*SECTION*/
@@ -142,59 +135,33 @@ footer{
 }
 /*FOOTER*//*FOOTER*//*FOOTER*/
 /*MONCV*//*MONCV*//*MONCV*/
-/*.moncv{
+.moncv section{
+	margin-top: 2rem;
 	background-color: #FFFFFF;
-	padding: 1rem;
+	box-shadow: 0px 2px 4px 0px rgba(119, 119, 119, 0.75);
+	-moz-box-shadow: 0px 2px 4px 0px rgba(119, 119, 119, 0.75);
+	-webkit-box-shadow: 0px 2px 4px 0px rgba(119, 119, 119, 0.75);
+}
+.headercv{
+	display: flex;
+	flex-direction: row;
+	justify-content:space-between;
 }
 .adresse{
-	position: absolute;
-	padding: 1rem;
-	left: 2.5rem;
-	background-color: #FFFFFF;
-	display: inline-block;
-	width: 20%;
 	text-align: left;
+	width: 25%;
+	padding: 2rem;
 }
 .titrecv{
-	background-color: #FFFFFF;
-	display: inline-block;
-	width: 50%;
-	margin-bottom: 5rem; 
+	width: 70%;
 }
-.comp_web{
-	display: inline-block;
-	width:45%;
-	float: left;
-	margin-top: 2rem;
+.comp_web ul{
+	display: flex;
+	flex-direction: column;
 }
-.comp_web li{
-	display: block;
+.comp_web ul li{
 	text-align: left;
-	margin: 1rem;
-	padding: 1rem;
+	margin-top: 1rem;
+	margin-bottom: 1rem;
 }
-.comp_web li:first-child{
-	background-color:red;
-}
-.comp_graph{
-	display: inline-block;
-	width:45%;
-	float: left;
-	margin-top: 2rem;
-}
-.comp_graph li{
-	display: block;
-	text-align: left;
-	margin: 1rem;
-	padding: 1rem;
-}
-.formation{
-	display: block;
-	float: left;
-}
-.experience{
-	display: block;
-	float: left;
-}
-*/
 /*MONCV*//*MONCV*//*MONCV*/
