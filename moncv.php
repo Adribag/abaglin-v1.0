@@ -24,24 +24,101 @@ include_once "header.php";
 		<div class="comp_web">
 			<h3>WEB</h3>
 			<ul>
-				<li>HTML</li>
-				<li>CSS</li>
-				<li>JS / JQUERY</li>
-				<li>PHP</li>
-				<li>BOOTSTRAP</li>
-				<li>WORDPRESS</li>
-				<li>RESPONSIVE DESIGN</li>
+				<li>
+					HTML
+					<div class="progress">
+			 		    <div class="progress-bar progress-bar-html" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%">
+			 		    		<span class="sr-only">90% Complete</span>
+					   </div>
+				   </div>
+				</li>
+				<li>
+					CSS
+					<div class="progress">
+  						<div class="progress-bar progress-bar-css" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%">
+   								 <span class="sr-only">90% Complete</span>
+ 						 </div>
+					</div>
+				</li>
+				<li>
+					JS/JQUERY
+					<div class="progress">
+  						<div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width: 50%">
+   					 			<span class="sr-only">50% Complete</span>
+ 						 </div>
+					</div>
+				</li>
+				<li>
+					PHP
+					<div class="progress">
+  						<div class="progress-bar progress-bar-php" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 50%">
+   							 	<span class="sr-only">50% Complete</span>
+  						</div>
+					</div>
+					</li>
+				<li>
+					BOOTSTRAP
+					<div class="progress">
+  						<div class="progress-bar progress-bar-purple" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 70%">
+   						 		<span class="sr-only">70% Complete</span>
+ 					 	</div>
+					</div>
+				</li>
+				<li>
+					WORDPRESS
+					<div class="progress">
+  						<div class="progress-bar progress-bar-black" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 70%">
+   						 		<span class="sr-only">70% Complete</span>
+ 					 	</div>
+					</div>
+				</li>
 			</ul>
 		</div>
 		<div class="comp_graph">
 			<h3>INFOGRAPHIE</h3>
 			<ul>
-				<li>PHOTOSHOP</li>
-				<li>ILLUSTRATOR</li>
-				<li>IN DESIGN</li>
-				<li>SUITE ADOBE</li>
-				<li>PHOTOGRAPHIE</li>
-				<li>RETOUCHES - MONTAGE</li>
+				<li>PHOTOSHOP
+					<div class="progress">
+  						<div class="progress-bar progress-bar-photoshop" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%">
+   						 		<span class="sr-only">90% Complete</span>
+ 					 	</div>
+					</div>
+				</li>
+				<li>ILLUSTRATOR
+					<div class="progress">
+  						<div class="progress-bar progress-bar-illustrator" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%">
+   						 		<span class="sr-only">75% Complete</span>
+ 					 	</div>
+					</div>
+				</li>
+				<li>IN DESIGN
+					<div class="progress">
+  						<div class="progress-bar progress-bar-indesign" role="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100" style="width: 65%">
+   						 		<span class="sr-only">65% Complete</span>
+ 					 	</div>
+					</div>
+				</li>
+				<li>SUITE ADOBE
+					<div class="progress">
+  						<div class="progress-bar progress-bar-adobe" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 70%">
+   						 		<span class="sr-only">70% Complete</span>
+ 					 	</div>
+					</div>
+				</li>
+				<li>RETOUCHE/MONTAGE
+					<div class="progress">
+  						<div class="progress-bar progress-bar-montage" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%">
+   						 		<span class="sr-only">80% Complete</span>
+ 					 	</div>
+					</div>
+				</li>
+				<li>PHOTOGRAPHIE
+					<div class="progress">
+  						<div class="progress-bar progress-bar-photo" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 70%">
+   						 		<span class="sr-only">70% Complete</span>
+ 					 	</div>
+					</div>
+				</li>
 			</ul>
 		</div>
 	</section>
@@ -61,14 +138,28 @@ include_once "header.php";
 	</section>
 	<section class="experience">
 		<h3>EXPERIENCES</h3>
-			<ul>
-				<li>
-					2014 (6mois): Infographiste - Maquettiste, Tourne la Page (13)
-				</li>
-				<li>
-					2012 (8mois): Infographiste, Camara (61)
-				</li>
-			</ul>
+		<ul>
+			<li>
+				2014 (6mois): Infographiste - Maquettiste, Tourne la Page (13)
+			</li>
+			<li>
+				2012 (8mois): Infographiste, Camara (61)
+			</li>
+		</ul>
+	</section>
+	<section class="interet">
+		<h3>CENTRES D'INTERETS</h3>
+		<ul>
+			<li>
+				Photographie
+			</li>
+			<li>
+				Sport - basketball(NBA)
+			</li>
+			<li>
+				Musique
+			</li>
+		</ul>		
 	</section>
 </div>
 <?php

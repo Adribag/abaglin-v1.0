@@ -2,7 +2,7 @@
 include_once "header.php";
 ?>
 
-    <h2>Section graphisme</h2>
+    <h2>Graphisme</h2>
     <ul>
         <li>
             <a href="logo.php">
