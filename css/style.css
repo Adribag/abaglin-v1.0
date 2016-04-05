@@ -39,6 +39,9 @@
 .progress-bar-montage{
 	background-color: #1abc9d;
 }
+.progress-bar-encours{
+	background-color: #33495e;
+}
 /*MODIFS BOOTSTRAP*//*MODIFS BOOTSTRAP*/
 /*HTML-BODY*//*HTML-BODY*/
 html,body{
@@ -51,7 +54,7 @@ html{
 body{
 	font-size: 2rem;
 	letter-spacing:0.3rem;
-	background-color: #171714;
+	background-color: #ecf0f1;
 	padding: 0;
 }
 /*HTML-BODY*//*HTML-BODY*/
@@ -124,6 +127,9 @@ section{
 	padding-right: 0;
 	background-color: #ecf0f1;
 	text-align:center;
+}
+ul{
+	padding: 0;
 }
 li{
 	list-style-type: none;
@@ -242,3 +248,23 @@ footer{
 	-webkit-box-shadow: 0px 2px 4px 0px rgba(119, 119, 119, 0.75);
 }
 /*WEB*//*WEB*//*WEB*/
+/*ENCOURS*//*ENCOURS*//*ENCOURS*/
+.encours{
+	padding: 4rem;
+	text-align: left;
+}
+/*ENCOURS*//*ENCOURS*//*ENCOURS*/
+/*GRAPH*//*GRAPH*//*GRAPH*/
+.graphisme ul{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content:space-around;
+}
+.graphisme li{
+	display: inline-block;
+}
+.graphisme figure{
+	display: inline-block;
+}
+/*GRAPH*//*GRAPH*//*GRAPH*/

@@ -30,7 +30,10 @@
 						</li>				
 						<li>
 							<a class="tmenu" href="moncv.php">Contact</a>
-						</li>	
+						</li>
+						<li>
+							<a class="tmenu" href="encours.php">En cours...</a>
+						</li>		
 					</ul>							
 				</nav>
 			</header>

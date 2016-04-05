@@ -1,7 +1,7 @@
 <?php
 include_once "header.php";
 ?>
-
+<div class="graphisme">
     <h2>Graphisme</h2>
     <ul>
         <li>
@@ -15,37 +15,27 @@ include_once "header.php";
             </a>
         </li>
         <li>
-            <a href="logo.php">
+            <a href="montage.php">
                 <figure>
                     <img src="img/image.png" alt="logo"></img>
                     <figcaption>
-                        AFFICHES
+                        MONTAGE
                    </figcaption>
                 </figure>
             </a>
         </li>
         <li>
-            <a href="logo.php">
+            <a href="maquette.php">
                 <figure>
                     <img src="img/image.png" alt="logo"></img>
                     <figcaption>
-                        FLYERS
-                    </figcaption>
-                </figure>
-            </a>
-        </li>
-        <li>
-            <a href="logo.php">
-                <figure>
-                    <img src="img/image.png" alt="logo"></img>
-                    <figcaption>
-                        EN COURS...
+                        MAQUETTE
                     </figcaption>
                 </figure>
             </a>
         </li>
     </ul>
-
+</div>
 <?php
 include_once "footer.php";
 ?>

@@ -134,6 +134,7 @@ include_once "header.php";
 			<li>
 				2008 - 2010 : Bac Pro Informatique et Reseau, Lycée Charles Tellier (14)
 			</li>
+			<br>
 		</ul>
 	</section>
 	<section class="experience">
@@ -145,6 +146,7 @@ include_once "header.php";
 			<li>
 				2012 (8mois): Infographiste, Camara (61)
 			</li>
+			<br>
 		</ul>
 	</section>
 	<section class="interet">
@@ -159,6 +161,7 @@ include_once "header.php";
 			<li>
 				Musique
 			</li>
+			<br>
 		</ul>		
 	</section>
 </div>
